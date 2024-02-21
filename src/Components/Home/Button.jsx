@@ -6,13 +6,13 @@ function Button() {
     aTag.href = url;
     aTag.setAttribute("download", fileName);
     document.body.appendChild(aTag);
-    // aTag.click();
+    aTag.click();
     // console.log(aTag.click() === true);
     aTag.remove();
   };
   return (
     <button
-      className="flex m-5 lg:justify-between gap-2 text-lg text-purple-800 font-semibold lg:text-start  bg-yellow-500 rounded-badge px-8 py-4"
+      className="flex m-5 lg:justify-between gap-2 text-lg text-purple-800 font-semibold lg:text-start  bg-yellow-500 rounded-badge px-8 py-4 transition-all duration-100 ease-in hover:scale-[105%]"
       onClick={() => {
         HandleDownloading(file);
       }}

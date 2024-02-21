@@ -1,7 +1,7 @@
 import header_img from "./assets/imgs/header.svg";
 function Contents() {
   return (
-    <div className="lg:pt-[150px] pt-[100px] text-white flex lg:flex-row-reverse flex-col-reverse lg:justify-around  items-center gap-6 p-5">
+    <div className="parent-header lg:pt-[150px] pt-[100px] text-white flex lg:flex-row-reverse flex-col-reverse lg:justify-around  items-center gap-6 p-5">
       <img
         className="max-w-full lg:w-1/2 w-3/4"
         src={header_img}
@@ -10,7 +10,7 @@ function Contents() {
       <div className="content lg:text-start text-center lg:block flex justify-center items-center flex-col">
         <h1 className="lg:text-4xl text-3xl pb-6 ">
           I'm{" "}
-          <span className="bg-purple-800 px-3 lg:text-5xl text-xl">
+          <span className=" bg-purple-600 px-3 lg:text-5xl text-xl">
             Sara Mohamed
           </span>
         </h1>

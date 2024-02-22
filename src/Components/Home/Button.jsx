@@ -1,5 +1,5 @@
 function Button() {
-  const file = "http://localhost:3000/Sara-Mohamed-Abdallah-Mohamaden.pdf";
+  const file = "/Sara-Mohamed-Abdallah-Mohamaden.pdf";
   const HandleDownloading = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");

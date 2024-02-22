@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.46912c8c.css",
+    "main.js": "/my-portfolio/static/js/main.b0d5c2ae.js",
+    "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/specially_website.jpg": "/my-portfolio/static/media/specially_website.047a4e14323a05c7bb66.jpg",
+    "static/media/bootstrap_logo.png": "/my-portfolio/static/media/bootstrap_logo.9cd429090069a189475b.png",
+    "static/media/reactjs_logo.png": "/my-portfolio/static/media/reactjs_logo.20adfb35ae6a6e5817bf.png",
+    "static/media/algoritms_logo.png": "/my-portfolio/static/media/algoritms_logo.5971cbd7624631be7284.png",
+    "static/media/quiz_app.png": "/my-portfolio/static/media/quiz_app.b72a4902dbe9f436b219.png",
+    "static/media/problem_logo.png": "/my-portfolio/static/media/problem_logo.681e5c1bbea51890d94f.png",
+    "static/media/dataStruc_logo.png": "/my-portfolio/static/media/dataStruc_logo.882560851f5636a84bb8.png",
+    "static/media/github_logo.png": "/my-portfolio/static/media/github_logo.4ca3b832efd81a65a429.png",
+    "static/media/css_logo.png": "/my-portfolio/static/media/css_logo.d1a3c1e59ca82dbdf815.png",
+    "static/media/clipboard_landing.webp": "/my-portfolio/static/media/clipboard_landing.91925f9b05f5397c60e8.webp",
+    "static/media/git_logo.png": "/my-portfolio/static/media/git_logo.63b94516b0c8926a967f.png",
+    "static/media/tailwind_logo.png": "/my-portfolio/static/media/tailwind_logo.1dbfbe2171ea475c4b2a.png",
+    "static/media/html_logo.png": "/my-portfolio/static/media/html_logo.6e930594286d8afe4c79.png",
+    "static/media/js_logo.png": "/my-portfolio/static/media/js_logo.3dfb665e058d08c99f28.png",
+    "static/media/multi_form.webp": "/my-portfolio/static/media/multi_form.1d9019c8493385c875d5.webp",
+    "static/media/header-dark.svg": "/my-portfolio/static/media/header-dark.b2a941e846cc725b0d40d4fb4d089b98.svg",
+    "static/media/header.svg": "/my-portfolio/static/media/header.81bfcd8ef84dd6ec01b1005c2790aa98.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.46912c8c.css.map": "/my-portfolio/static/css/main.46912c8c.css.map",
+    "main.b0d5c2ae.js.map": "/my-portfolio/static/js/main.b0d5c2ae.js.map",
+    "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46912c8c.css",
+    "static/js/main.b0d5c2ae.js"
+  ]
+}

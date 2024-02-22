@@ -1,9 +1,11 @@
 import BdyProjects from "../Components/Projects/BdyProjects";
+import BtnProjects from "../Components/Projects/BtnProjects";
 
 function Projects() {
   return (
-    <div>
+    <div className="bg-purple-600 pb-6" id="project">
       <BdyProjects />
+      <BtnProjects />
     </div>
   );
 }

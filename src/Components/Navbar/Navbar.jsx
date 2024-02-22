@@ -1,14 +1,17 @@
 import "./navbar.css";
 import header_img from "../Home/assets/imgs/header.svg";
 import header_dark from "../Home/assets/imgs/header-dark.svg";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 function Navbar() {
   const HandleColor = () => {
     document.querySelectorAll(".bg-purple-950").forEach((e) => {
       e.classList.remove("bg-purple-950");
       e.classList.add("bg-zinc-900");
     });
-
+    document.querySelectorAll(".text-purple-500").forEach((e) => {
+      e.classList.remove("text-purple-500");
+      e.classList.add("text-green-500");
+    });
     document.querySelectorAll(".text-purple-800").forEach((e) => {
       e.classList.remove("text-purple-800");
       e.classList.add("text-green-700");
@@ -21,6 +24,10 @@ function Navbar() {
       e.classList.remove("bg-purple-700");
       e.classList.add("bg-zinc-900");
     });
+    document.querySelectorAll(".border-purple-950").forEach((e) => {
+      e.classList.remove("border-purple-950");
+      e.classList.add("border-zinc-900");
+    });
     document.querySelector(".parent-header").firstChild.src = header_dark;
   };
   const HandleColorSun = () => {
@@ -28,6 +35,11 @@ function Navbar() {
       e.classList.remove("text-green-700");
       e.classList.add("text-purple-800");
     });
+    document.querySelectorAll(".text-green-500").forEach((e) => {
+      e.classList.remove("text-green-500");
+      e.classList.add("text-purple-500");
+    });
+
     document.querySelectorAll(".bg-green-700").forEach((e) => {
       e.classList.remove("bg-green-700");
       e.classList.add("bg-purple-600");
@@ -39,6 +51,10 @@ function Navbar() {
     document.querySelectorAll(".bg-zinc-900").forEach((e) => {
       e.classList.remove("bg-zinc-900");
       e.classList.add("bg-purple-950");
+    });
+    document.querySelectorAll(".border-zinc-900").forEach((e) => {
+      e.classList.remove("border-zinc-900");
+      e.classList.add("border-purple-950");
     });
     document.querySelector(".parent-header").firstChild.src = header_img;
   };
@@ -67,36 +83,107 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-purple-600 rounded w-52"
           >
             <li className="font-semibold">
-              <Link to="/">Home</Link>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-68}
+                duration={300}
+              >
+                Home
+              </Link>
             </li>
             <li className="font-semibold">
-              <Link to="projects">Projects</Link>
+              <Link
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={-68}
+                duration={300}
+              >
+                Projects
+              </Link>
             </li>
             <li className="font-semibold">
-              <Link to="skills">Skills</Link>
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-60}
+                duration={300}
+              >
+                Skillss
+              </Link>
             </li>
             <li className="font-semibold">
-              <Link to="contact">Contact</Link>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-68}
+                duration={300}
+              >
+                Contacts
+              </Link>
             </li>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl">
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-68}
+          duration={300}
+          className="btn btn-ghost text-xl"
+        >
           Sara Mohamed
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li className="font-semibold">
-            <Link to="/">Home</Link>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-68}
+              duration={300}
+            >
+              Home
+            </Link>
           </li>
           <li className="font-semibold">
-            <Link to="project">Projects</Link>
+            <Link
+              to="project"
+              spy={true}
+              smooth={true}
+              offset={-68}
+              duration={300}
+            >
+              Projects
+            </Link>
           </li>
           <li className="font-semibold">
-            <Link to="skills">Skills</Link>
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-68}
+              duration={300}
+            >
+              Skills
+            </Link>
           </li>
           <li className="font-semibold">
-            <Link to="contact">Contact</Link>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-68}
+              duration={300}
+            >
+              Contacts
+            </Link>
           </li>
         </ul>
       </div>

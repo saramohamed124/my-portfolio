@@ -7,15 +7,18 @@ function FormContact() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_xlcoysq", "template_4rgtrch", form.current, {
-        publicKey: "wRpotS0_FzWmho1hZ",
-      })
+      .sendForm(
+        "service_xlcoysq",
+        "template_4rgtrch",
+        form.current,
+        "wRpotS0_FzWmho1hZ"
+      )
       .then(
-        () => {
-          console.log("SUCCESS!");
+        (result) => {
+          console.log(result);
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.log(error);
         }
       );
   };
@@ -26,6 +29,7 @@ function FormContact() {
         Your Name
       </label>
       <input
+        name="from_name"
         type="text"
         placeholder="Your Name"
         className="input input-bordered w-1/2 max-w-xs"
@@ -34,6 +38,7 @@ function FormContact() {
         Your Email
       </label>
       <input
+        name="form_email"
         type="email"
         placeholder="Your Email"
         className="input input-bordered w-1/2 max-w-xs"
@@ -42,6 +47,7 @@ function FormContact() {
         Your Message
       </label>
       <textarea
+        name="message"
         className="textarea w-full h-52 my-5"
         placeholder="Your Message"
       ></textarea>

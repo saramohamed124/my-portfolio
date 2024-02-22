@@ -1,0 +1,8 @@
+.email-form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  margin: auto;
+}

@@ -18,31 +18,31 @@ function Contents() {
       <h1 className="mt-6 text-white text-4xl">Skills</h1>
       <div className="my-10 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2">
         <div className="flex flex-col justify-around p-2 items-center gap-2">
-          <img className="w-32" src={html_logo} alt="html" />
+          <img className=" w-[7rem]" src={html_logo} alt="html" />
           <p className="font-bold text-white">HTML</p>
         </div>
         <div className="flex flex-col justify-around p-2 items-center gap-2">
-          <img className="w-32" src={css_logo} alt="css" />
+          <img className=" w-[7rem]" src={css_logo} alt="css" />
           <p className="font-bold text-white">CSS</p>
         </div>
         <div className="flex flex-col justify-around p-2 items-center gap-2">
-          <img className="w-32" src={bootstrap_logo} alt="bootstrap" />
+          <img className=" w-[7rem]" src={bootstrap_logo} alt="bootstrap" />
           <p className="font-bold text-white">Bootstrap</p>
         </div>
         <div className="flex flex-col justify-around p-2 items-center gap-4">
-          <img className=" w-36" src={tailwind_logo} alt="tailwindcss" />
+          <img className=" w-[8rem]" src={tailwind_logo} alt="tailwindcss" />
           <p className="font-bold text-white">TailwindCss</p>
         </div>
         <div className="flex flex-col justify-around p-2 items-center gap-2">
-          <img className="w-32" src={js_logo} alt="javaScript" />
+          <img className=" w-[7rem]" src={js_logo} alt="javaScript" />
           <p className="font-bold text-white">JS</p>
         </div>
         <div className="flex flex-col justify-around p-2 items-center gap-2">
-          <img className="w-32" src={typescript_logo} alt="typeScript" />
+          <img className=" w-[7rem]" src={typescript_logo} alt="typeScript" />
           <p className="font-bold text-white">TS</p>
         </div>{" "}
         <div className="flex flex-col justify-around p-2 items-center gap-2">
-          <img className="w-32" src={reactjs_logo} alt="Reactjs" />
+          <img className=" w-[7rem]" src={reactjs_logo} alt="Reactjs" />
           <p className="font-bold text-white">Reactjs</p>
         </div>
       </div>

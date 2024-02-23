@@ -1,11 +1,10 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 function FormContact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_xlcoysq",
@@ -15,6 +14,7 @@ function FormContact() {
       )
       .then(
         (result) => {
+          document.querySelectorAll("form > *").forEach((e) => (e.value = " "));
           console.log(result);
         },
         (error) => {
@@ -32,7 +32,7 @@ function FormContact() {
         name="from_name"
         type="text"
         placeholder="Your Name"
-        className="input input-bordered w-1/2 max-w-xs"
+        className="input input-bordered lg:w-1/2 w-[100%] max-w-xs"
       />{" "}
       <label htmlFor="" className="w-full block py-3 text-white font-semibold">
         Your Email
@@ -41,7 +41,7 @@ function FormContact() {
         name="form_email"
         type="email"
         placeholder="Your Email"
-        className="input input-bordered w-1/2 max-w-xs"
+        className="input input-bordered lg:w-1/2 w-[100%] max-w-xs"
       />
       <label htmlFor="" className="w-full block pt-7 text-white font-semibold">
         Your Message

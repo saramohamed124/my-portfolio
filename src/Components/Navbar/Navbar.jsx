@@ -112,7 +112,7 @@ function Navbar() {
                 offset={-60}
                 duration={300}
               >
-                Skillss
+                Skills
               </Link>
             </li>
             <li className="font-semibold">
@@ -120,7 +120,7 @@ function Navbar() {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-68}
+                offset={-60}
                 duration={300}
               >
                 Contacts

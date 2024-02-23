@@ -4,7 +4,6 @@ function Copyright() {
       Copyright ©{" "}
       <a
         className="text-purple-500"
-        rel="noreferrer"
         href="https://github.com/saramohamed124/"
         target="_blank"
       >

@@ -3,7 +3,7 @@ function Copyright() {
     <p>
       Copyright ©{" "}
       <a
-        className="text-purple-500 hover:text-white"
+        className="text-purple-500"
         href="https://github.com/saramohamed124/"
         target="_blank"
       >

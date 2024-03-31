@@ -22,7 +22,7 @@ const productsState = atom({
         id:1,
         name: "Message-App",
         src: message_app,
-        description: "This is HTML CSS Bootstrap React.js Message App",
+        description: "This is HTML CSS Firebase React.js Message App",
         href:"https://saramohamed124.github.io/message-app/"
       }, {
         id:2,

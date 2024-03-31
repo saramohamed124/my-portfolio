@@ -1,5 +1,6 @@
 function Button() {
-  const file = "/public/Sara-Mohamed-Abdullah-CV.pdf";
+  const file = "Sara-Mohamed-Abdullah-CV.pdf";
+  console.log(file)
   const HandleDownloading = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");

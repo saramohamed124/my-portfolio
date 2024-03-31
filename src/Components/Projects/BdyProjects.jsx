@@ -17,7 +17,7 @@ const BdyProjects = () => {
             <img
               src={e.src}
               alt="quiz"
-              className=" w-56 h-56 object-cover max-w-full"
+              className=" w-[19rem] h-56 object-cover max-w-full"
             />
             <div className="text-center pt-5">
               <h2 className="text-white font-semibold" key={e.id}>

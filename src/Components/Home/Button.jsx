@@ -13,14 +13,14 @@ function Button() {
   };
   return (
     <button
-      className="flex m-5 lg:justify-between gap-2 text-lg text-purple-800 font-semibold lg:text-start  bg-yellow-500 rounded-badge px-8 py-4 transition-all duration-100 ease-in hover:scale-[105%]"
+      className="flex m-0 mx-5 lg:justify-between gap-2 text-lg text-white font-semibold lg:text-start  bg-yellow-500 rounded-badge px-8 py-4 transition-all duration-100 ease-in hover:scale-[105%]"
       onClick={() => {
         HandleDownloading(file);
       }}
     >
       Download CV{""}
       <svg
-        class="w-6 h-6 text-purple-800 dark:text-white"
+        class="w-6 h-6 text-white dark:text-white"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

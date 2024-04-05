@@ -3,7 +3,7 @@ import BtnProjects from "../Components/Projects/BtnProjects";
 
 function Projects() {
   return (
-    <div className="bg-purple-600 pb-6" id="project">
+    <div className="bg-yellow-2000 pb-6" id="project">
       <BdyProjects />
       <BtnProjects />
     </div>

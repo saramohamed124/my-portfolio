@@ -6,7 +6,7 @@ function Icons() {
         target="_blank"
       >
         <svg
-          class="w-6 h-6 text-purple-800 transition-all duration-[0.3s] ease-in hover:text-[#0d54c0] dark:text-white"
+          class="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#0d54c0] dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -21,7 +21,7 @@ function Icons() {
       </a>
       <a href="https://github.com/saramohamed124/" target="_blank">
         <svg
-          class="w-6 h-6 text-purple-800 transition-all duration-[0.3s] ease-in hover:text-[#000000] dark:text-white"
+          class="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#000000] dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -39,7 +39,7 @@ function Icons() {
         target="_blank"
       >
         <svg
-          class="w-6 h-6 text-purple-800 transition-all duration-[0.3s] ease-in hover:text-[#0A66C2] dark:text-white"
+          class="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#0A66C2] dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"

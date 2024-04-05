@@ -14,7 +14,7 @@ import algorithm_logo from "./assets/imgs/algoritms_logo.png";
 import problem_logo from "./assets/imgs/problem_logo.png";
 function Contents() {
   return (
-    <div className="p-5 px-6 bg-purple-950">
+    <div className="p-5 px-6 bg-darkblue-500">
       <h1 className="mt-6 text-white text-4xl">Skills</h1>
       <div className="my-10 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2">
         <div className="flex flex-col justify-around p-2 items-center gap-2">

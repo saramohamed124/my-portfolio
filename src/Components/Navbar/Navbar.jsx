@@ -1,65 +1,56 @@
 import "./navbar.css";
-import header_img from "../Home/assets/imgs/header.svg";
-import header_dark from "../Home/assets/imgs/header-dark.svg";
+import header_img from "../Home/assets/imgs/header.gif";
+import header_dark from "../Home/assets/imgs/header-dark.gif";
 import { Link } from "react-scroll";
 function Navbar() {
   const HandleColor = () => {
-    document.querySelectorAll(".bg-purple-950").forEach((e) => {
-      e.classList.remove("bg-purple-950");
+    document.querySelectorAll(".bg-darkblue-500 ").forEach((e) => {
+      e.classList.remove("bg-darkblue-500");
       e.classList.add("bg-zinc-900");
     });
-    document.querySelectorAll(".text-purple-500").forEach((e) => {
-      e.classList.remove("text-purple-500");
-      e.classList.add("text-green-500");
-    });
-    document.querySelectorAll(".text-purple-800").forEach((e) => {
-      e.classList.remove("text-purple-800");
+    document.querySelectorAll(".bg-yellow-2000").forEach((e) => {
+      e.classList.remove("bg-yellow-2000");
+      e.classList.add("bg-green-700");
+    }); 
+    document.querySelectorAll(".text-yellow-500").forEach((e) => {
+      e.classList.remove("text-yellow-500");
       e.classList.add("text-green-700");
     });
-    document.querySelectorAll(".bg-purple-600").forEach((e) => {
-      e.classList.remove("bg-purple-600");
-      e.classList.add("bg-green-700");
-    });
-    document.querySelectorAll(".bg-purple-700").forEach((e) => {
-      e.classList.remove("bg-purple-700");
-      e.classList.add("bg-zinc-900");
-    });
-    document.querySelectorAll(".border-purple-950").forEach((e) => {
-      e.classList.remove("border-purple-950");
+    document.querySelectorAll(".border-blue-950").forEach((e) => {
+      e.classList.remove("border-blue-950");
       e.classList.add("border-zinc-900");
+    });
+    document.querySelectorAll(".text-zinc-500").forEach((e) => {
+      e.classList.remove("text-zinc-500");
+      e.classList.add("text-zinc-300");
     });
     document.querySelector(".parent-header").firstChild.src = header_dark;
   };
   const HandleColorSun = () => {
-    document.querySelectorAll(".text-green-700").forEach((e) => {
-      e.classList.remove("text-green-700");
-      e.classList.add("text-purple-800");
-    });
-    document.querySelectorAll(".text-green-500").forEach((e) => {
-      e.classList.remove("text-green-500");
-      e.classList.add("text-purple-500");
-    });
-
-    document.querySelectorAll(".bg-green-700").forEach((e) => {
-      e.classList.remove("bg-green-700");
-      e.classList.add("bg-purple-600");
-    });
-    document.querySelectorAll(".bg-green-700").forEach((e) => {
-      e.classList.remove("bg-green-700");
-      e.classList.add("bg-purple-900");
-    });
     document.querySelectorAll(".bg-zinc-900").forEach((e) => {
       e.classList.remove("bg-zinc-900");
-      e.classList.add("bg-purple-950");
+      e.classList.add("bg-darkblue-500");
+    });
+    document.querySelectorAll(".bg-green-700").forEach((e) => {
+      e.classList.remove("bg-green-700");
+      e.classList.add("bg-yellow-2000");
+    });
+    document.querySelectorAll(".text-green-700").forEach((e) => {
+      e.classList.remove("text-green-700");
+      e.classList.add("text-yellow-500");
     });
     document.querySelectorAll(".border-zinc-900").forEach((e) => {
       e.classList.remove("border-zinc-900");
-      e.classList.add("border-purple-950");
+      e.classList.add("border-blue-950");
+    });
+    document.querySelectorAll(".text-zinc-300").forEach((e) => {
+      e.classList.remove("text-zinc-300");
+      e.classList.add("text-zinc-500");
     });
     document.querySelector(".parent-header").firstChild.src = header_img;
   };
   return (
-    <div className="navbar   bg-purple-950 text-white fixed">
+    <div className="navbar   bg-darkblue-500  text-white fixed">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -80,7 +71,7 @@ function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-purple-600 rounded w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-yellow-2000 rounded w-52"
           >
             <li className="font-semibold">
               <Link
@@ -204,13 +195,13 @@ function Navbar() {
             <span
               className=" block w-full h-2/4 "
               style={{
-                backgroundColor: "#3b0764",
+                backgroundColor: "#ffb703",
               }}
             ></span>
             <span
               className=" block w-full h-2/4"
               style={{
-                backgroundColor: "#9333ea",
+                backgroundColor: "#023047",
               }}
             ></span>
           </div>

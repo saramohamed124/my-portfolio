@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d67669c6.css",
-    "main.js": "/my-portfolio/static/js/main.9eecf2c7.js",
+    "main.css": "/my-portfolio/static/css/main.5de73a4f.css",
+    "main.js": "/my-portfolio/static/js/main.1e414eed.js",
     "static/js/453.41811d64.chunk.js": "/my-portfolio/static/js/453.41811d64.chunk.js",
     "static/media/furniro_app.png": "/my-portfolio/static/media/furniro_app.0cc51bfdf053a0f5cef3.png",
     "static/media/header.gif": "/my-portfolio/static/media/header.9a6419db29923597245c.gif",
@@ -23,13 +23,14 @@
     "static/media/html_logo.png": "/my-portfolio/static/media/html_logo.6e930594286d8afe4c79.png",
     "static/media/js_logo.png": "/my-portfolio/static/media/js_logo.3dfb665e058d08c99f28.png",
     "static/media/multi_form.webp": "/my-portfolio/static/media/multi_form.1d9019c8493385c875d5.webp",
+    "static/media/whatsapp_icon.svg": "/my-portfolio/static/media/whatsapp_icon.9006ddba1fc048df9a134c29f4ed6d43.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.d67669c6.css.map": "/my-portfolio/static/css/main.d67669c6.css.map",
-    "main.9eecf2c7.js.map": "/my-portfolio/static/js/main.9eecf2c7.js.map",
+    "main.5de73a4f.css.map": "/my-portfolio/static/css/main.5de73a4f.css.map",
+    "main.1e414eed.js.map": "/my-portfolio/static/js/main.1e414eed.js.map",
     "453.41811d64.chunk.js.map": "/my-portfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67669c6.css",
-    "static/js/main.9eecf2c7.js"
+    "static/css/main.5de73a4f.css",
+    "static/js/main.1e414eed.js"
   ]
 }

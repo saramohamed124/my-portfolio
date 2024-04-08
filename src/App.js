@@ -7,6 +7,7 @@ import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import Skills from './Pages/Skills';
 import Footer from './Pages/Footer';
+import Whatsapp from './Components/Footer/Whatsapp';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Skills/>
     <Contact/>
     <Footer/>
+    <Whatsapp/>
     </div>
   );
 }

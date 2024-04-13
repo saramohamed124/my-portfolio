@@ -1,9 +1,9 @@
 import React from "react";
-import productsState from "../product-atom";
+import productsState from "./product-atom";
 import { useRecoilState } from "recoil";
 
 const BdyProjects = () => {
-  const [data, setData] = useRecoilState(productsState);
+  const [data] = useRecoilState(productsState);
 
   return (
     <div className=" p-5 px-6 ">

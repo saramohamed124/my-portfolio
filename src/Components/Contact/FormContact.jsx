@@ -57,7 +57,7 @@ function FormContact() {
       
       <label for="" class="w-full block py-3 text-black font-semibold">Your Name</label>
       <input name="from_name" type="text" placeholder="Your Name" class="input input-bordered lg:w-1/2 w-[100%] max-w-xs"/> <label for="" class="w-full block py-3 text-black font-semibold">Your Email</label><input name="form_email" type="email" placeholder="Your Email" class="input input-bordered lg:w-1/2 w-[100%] max-w-xs"/><label for="" class="w-full block pt-7 text-black font-semibold">Your Message</label><textarea name="message" class="textarea w-full h-52 my-5" placeholder="Your Message"></textarea><button class="btn bg-darkblue-500 text-white font-semibold py-4 px-8 hover:bg-transparent hover:scale-[105%]" disabled>Send</button>
-    <p style={{color:"red"}}>Form has an error at the moment, please contact with me on whatsapp,facebook,linkedIn</p>
+    <p style={{color:"red"}}>Form has an error at the moment, please contact with me on whatsapp, facebook or linkedIn</p>
     
     </form>
 );

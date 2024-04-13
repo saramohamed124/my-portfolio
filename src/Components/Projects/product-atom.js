@@ -1,11 +1,11 @@
 import {atom} from 'recoil';
-import furniro_app from "../Components/Projects/assets/imgs/furniro_app.png"
-import message_app from "../Components/Projects/assets/imgs/Message_App.png"
-import todo_list from "../Components/Projects/assets/imgs/to_do_list.png"
-import quiz_app from "../Components/Projects/assets/imgs/quiz_app.png";
-import specially_website from'../Components/Projects/assets/imgs/specially_website.jpg'
-import multi_form from'../Components/Projects/assets/imgs/multi_form.webp'
-import clipboard_landing from'../Components/Projects/assets/imgs/clipboard_landing.webp'
+import furniro_app from "./assets/imgs/furniro_app.png"
+import message_app from "./assets/imgs/Message_App.png"
+import todo_list from "./assets/imgs/to_do_list.png"
+import quiz_app from "./assets/imgs/quiz_app.png";
+import specially_website from'./assets/imgs/specially_website.jpg'
+import multi_form from'./assets/imgs/multi_form.webp'
+import clipboard_landing from'./assets/imgs/clipboard_landing.webp'
 
 const productsState = atom({
 

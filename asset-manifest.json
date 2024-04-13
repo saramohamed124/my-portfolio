@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5de73a4f.css",
-    "main.js": "/my-portfolio/static/js/main.1e414eed.js",
+    "main.css": "/my-portfolio/static/css/main.4dd48e74.css",
+    "main.js": "/my-portfolio/static/js/main.69b5d97f.js",
     "static/js/453.41811d64.chunk.js": "/my-portfolio/static/js/453.41811d64.chunk.js",
     "static/media/furniro_app.png": "/my-portfolio/static/media/furniro_app.0cc51bfdf053a0f5cef3.png",
     "static/media/header.gif": "/my-portfolio/static/media/header.9a6419db29923597245c.gif",
@@ -24,13 +24,14 @@
     "static/media/js_logo.png": "/my-portfolio/static/media/js_logo.3dfb665e058d08c99f28.png",
     "static/media/multi_form.webp": "/my-portfolio/static/media/multi_form.1d9019c8493385c875d5.webp",
     "static/media/whatsapp_icon.svg": "/my-portfolio/static/media/whatsapp_icon.9006ddba1fc048df9a134c29f4ed6d43.svg",
+    "static/media/redux.svg": "/my-portfolio/static/media/redux.71eb13e2fdd1de624e9a856125906e3b.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.5de73a4f.css.map": "/my-portfolio/static/css/main.5de73a4f.css.map",
-    "main.1e414eed.js.map": "/my-portfolio/static/js/main.1e414eed.js.map",
+    "main.4dd48e74.css.map": "/my-portfolio/static/css/main.4dd48e74.css.map",
+    "main.69b5d97f.js.map": "/my-portfolio/static/js/main.69b5d97f.js.map",
     "453.41811d64.chunk.js.map": "/my-portfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5de73a4f.css",
-    "static/js/main.1e414eed.js"
+    "static/css/main.4dd48e74.css",
+    "static/js/main.69b5d97f.js"
   ]
 }

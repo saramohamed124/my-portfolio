@@ -15,56 +15,57 @@ const productsState = atom({
     default: [
       {
         id:0,
+        name: "Simple E commerce Gold React App",
+        src: gold_app,
+        description: "This is HTML CSS react-bootstrap reactjs redux toolkit",
+        href:"https://saramohamed124.github.io/gold-app/"
+      },
+      {
+        id:1,
         name: "Furniture E-commerce App",
         src: furniro_app,
         description: "This is HTML CSS TailwindCSS daisy Ui React.js E-commerce App",
         href:"https://saramohamed124.github.io/furniro-app/"
       }, {
-        id:1,
+        id:2,
         name: "Message-App",
         src: message_app,
         description: "This is HTML CSS Firebase React.js Message App",
         href:"https://saramohamed124.github.io/message-app/"
       }, {
-        id:2,
+        id:3,
         name: "To-Do_List App",
         src: todo_list,
         description: "This is HTML CSS Bootstrap Angular17 App",
         href:"https://saramohamed124.github.io/To-Do-List-App/"
       },
       {
-        id:3,
+        id:4,
         name: "Quiz app",
         src: quiz_app,
         description: "This is HTML CSS Bootstrap JS Quiz App Vanilla JS",
         href:"https://saramohamed124.github.io/Quiz-App/"
       },
       {
-        id:4,
+        id:5,
         name: "Specially Design Website",
         src: specially_website,
         description: "This is HTML CSS Bootstrap JS Specially design Website",
         href:"https://saramohamed124.github.io/Specially_designTmplate-main/"
       }, {
-        id:5,
+        id:6,
         name: "Multi-step-form",
         src: multi_form,
         description: "This is HTML CSS Bootstrap JS Multi Step Form",
         href:"https://saramohamed124.github.io/Multi-step-form/"
       }, {
-        id:6,
+        id:7,
         name: "Clipboard landing page",
         src: clipboard_landing,
         description: "This is HTML CSS Bootstrap Clipboard landing page",
         href:"https://saramohamed124.github.io/Clipboard-landing-page/"
       },
-      {
-        id:7,
-        name: "Simple E commerce Gold React App",
-        src: gold_app,
-        description: "This is HTML CSS react-bootstrap reactjs redux toolkit",
-        href:"https://saramohamed124.github.io/gold-app/"
-      }
+      
     ], // default value (aka initial value)
   });
 

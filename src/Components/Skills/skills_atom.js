@@ -8,7 +8,7 @@ import js_logo from "./assets/imgs/js_logo.png";
 import typescript_logo from "./assets/imgs/typescript_logo.jpg";
 import reactjs_logo from "./assets/imgs/reactjs_logo.png";
 import redux_logo from './assets/imgs/redux.svg'
-
+import react_bootstrap from './assets/imgs/react_bootstrap.png'
 const skill = atom({
     key:"skill",
     default:[
@@ -49,9 +49,19 @@ const skill = atom({
         },
         {
             id:7,
+            name_skill:"React Bootstap",
+            src:react_bootstrap
+        },
+        {
+            id:8,
             name_skill:"Redux",
             src:redux_logo
+        },{
+            id:9,
+            name_skill:"Redux Toolkit",
+            src:redux_logo
         }
+        
     ],
 })
 export default skill 

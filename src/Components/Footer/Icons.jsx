@@ -39,7 +39,7 @@ function Icons() {
         target="_blank"
       >
         <svg
-          class="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#0A66C2] dark:text-white"
+          className="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#0A66C2] dark:text-white"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -52,6 +52,13 @@ function Icons() {
           />
           <path d="M7.2 8.8H4v10.7h3.2V8.8Z" />
         </svg>
+      </a>
+      <a href="https://www.instagram.com/sara_mohammaden/" target="_blank">
+      <svg
+                className="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#0A66C2] dark:text-white"
+                fill="currentColor"
+                viewBox="0 0 256 256" 
+                xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M160,128a32,32,0,1,1-32-32A32.03667,32.03667,0,0,1,160,128Zm68-44v88a56.06353,56.06353,0,0,1-56,56H84a56.06353,56.06353,0,0,1-56-56V84A56.06353,56.06353,0,0,1,84,28h88A56.06353,56.06353,0,0,1,228,84Zm-52,44a48,48,0,1,0-48,48A48.05436,48.05436,0,0,0,176,128Zm16-52a12,12,0,1,0-12,12A12,12,0,0,0,192,76Z"></path> </g></svg>
       </a>
     </div>
   );

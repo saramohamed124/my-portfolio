@@ -6,6 +6,7 @@ import quiz_app from "./assets/imgs/quiz_app.png";
 import specially_website from'./assets/imgs/specially_website.jpg'
 import multi_form from'./assets/imgs/multi_form.webp'
 import clipboard_landing from'./assets/imgs/clipboard_landing.webp'
+import gold_app from './assets/imgs/gold_app.png'
 
 const productsState = atom({
 
@@ -56,6 +57,13 @@ const productsState = atom({
         src: clipboard_landing,
         description: "This is HTML CSS Bootstrap Clipboard landing page",
         href:"https://saramohamed124.github.io/Clipboard-landing-page/"
+      },
+      {
+        id:7,
+        name: "Simple E commerce Gold React App",
+        src: gold_app,
+        description: "This is HTML CSS react-bootstrap reactjs redux toolkit",
+        href:"https://saramohamed124.github.io/gold-app/"
       }
     ], // default value (aka initial value)
   });

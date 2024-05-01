@@ -3,7 +3,7 @@ function Icons() {
     <div className="flex gap-6">
       <a
         href="https://www.facebook.com/profile.php?id=100030256833323"
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         <svg
           class="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#0d54c0] dark:text-white"
@@ -19,7 +19,7 @@ function Icons() {
           />
         </svg>
       </a>
-      <a href="https://github.com/saramohamed124/" target="_blank">
+      <a href="https://github.com/saramohamed124/" target="_blank" rel="noreferrer">
         <svg
           class="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#000000] dark:text-white"
           aria-hidden="true"
@@ -36,7 +36,7 @@ function Icons() {
       </a>
       <a
         href="https://www.linkedin.com/in/sara-mohamed-5703b524a/"
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         <svg
           className="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#0A66C2] dark:text-white"
@@ -53,7 +53,7 @@ function Icons() {
           <path d="M7.2 8.8H4v10.7h3.2V8.8Z" />
         </svg>
       </a>
-      <a href="https://www.instagram.com/sara_mohammaden/" target="_blank">
+      <a href="https://www.instagram.com/sara_mohammaden/" target="_blank" rel="noreferrer">
       <svg
                 className="w-6 h-6 text-yellow-500 transition-all duration-[0.3s] ease-in hover:text-[#C13584] dark:text-white"
                 fill="currentColor"

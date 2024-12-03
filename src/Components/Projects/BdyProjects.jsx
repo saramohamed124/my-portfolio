@@ -23,13 +23,14 @@ const BdyProjects = () => {
               <h2 className="text-black font-semibold" key={e.id}>
                 {e.name}
               </h2>
-              <p className="text-zinc-500 text-[14px] pt-2" key={e.id}>
+              <p className="text-zinc-500 text-[14px] pt-2 h-[50px]" key={e.id}>
                 {e.description}
               </p>
             </div>
             <a
               href={e.href}
               target="_blank"
+              rel="noreferrer"
               className="w-fit hover:scale-[103%] hover rounded-badge text-white font-semibold py-2 px-4 bg-darkblue-500 mt-5"
             >
               live Preview

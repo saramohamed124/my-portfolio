@@ -9,6 +9,8 @@ import typescript_logo from "./assets/imgs/typescript_logo.jpg";
 import reactjs_logo from "./assets/imgs/reactjs_logo.png";
 import redux_logo from './assets/imgs/redux.svg'
 import react_bootstrap from './assets/imgs/react_bootstrap.png'
+import axois_logo from './assets/imgs/axios.png'
+import mui_logo from './assets/imgs/mui.png'
 const skill = atom({
     key:"skill",
     default:[
@@ -34,32 +36,41 @@ const skill = atom({
         },
         {
             id:4,
-            name_skill:"JavaScript",
-            src:js_logo
-        },
-        {
-            id:5,
-            name_skill:"TypeScript",
-            src:typescript_logo
-        },
-        {
-            id:6,
-            name_skill:"Reactjs",
-            src:reactjs_logo
-        },
-        {
-            id:7,
             name_skill:"React Bootstap",
             src:react_bootstrap
         },
         {
+            id:5,
+            name_skill:"Material UI",
+            src:mui_logo
+        },
+        {
+            id:6,
+            name_skill:"JavaScript",
+            src:js_logo
+        },
+        {
+            id:7,
+            name_skill:"TypeScript",
+            src:typescript_logo
+        },
+        {
             id:8,
+            name_skill:"Reactjs",
+            src:reactjs_logo
+        },
+        {
+            id:9,
             name_skill:"Redux",
             src:redux_logo
         },{
-            id:9,
+            id:10,
             name_skill:"Redux Toolkit",
             src:redux_logo
+        },{
+            id:11,
+            name_skill:"Axois",
+            src:axois_logo
         }
         
     ],

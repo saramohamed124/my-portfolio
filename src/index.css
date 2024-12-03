@@ -25,3 +25,7 @@ img {
 * {
   box-sizing: border-box;
 }
+input.input,
+textarea.textarea {
+  background: white;
+}

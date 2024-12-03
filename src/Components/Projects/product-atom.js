@@ -7,6 +7,7 @@ import specially_website from'./assets/imgs/specially_website.jpg'
 import multi_form from'./assets/imgs/multi_form.webp'
 import clipboard_landing from'./assets/imgs/clipboard_landing.webp'
 import gold_app from './assets/imgs/gold_app.png'
+import elearning_app from './assets/imgs/eleaning.png'
 
 const productsState = atom({
 
@@ -14,6 +15,12 @@ const productsState = atom({
 
     default: [
       {
+        id:0,
+        name: "E Learning React App",
+        src: elearning_app,
+        description: "This is HTML CSS Material-UI reactjs axios Learning App",
+        href:"https://elearning-app-green.vercel.app/"
+      },{
         id:0,
         name: "Simple E commerce Gold React App",
         src: gold_app,

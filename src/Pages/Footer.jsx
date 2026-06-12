@@ -10,7 +10,7 @@ function Footer() {
     // height: fit-content;
     // padding: 20px;
     <div className=" 
-    bg-darkblue-500 text-white flex items-center justify-around gap-5 p-5">
+    bg-[var(--bg-color)] text-[var(--primary-color)] flex items-center justify-around gap-5 p-5">
       <Copyright />
       <Icons />
     </div>

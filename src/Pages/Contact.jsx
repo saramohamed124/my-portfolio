@@ -6,7 +6,7 @@ import FormContact from "../Components/Contact/FormContact";
 function Contact() {
   return (
     <div
-      className="p-5 px-6 bg-yellow-2000 lg:block lg:text-start  flex flex-col justify-center items-center text-center "
+      className="p-5 px-6 bg-[var(--primary-color)] lg:block lg:text-start  flex flex-col justify-center items-center text-center "
       id="contact"
     >
       <Heading />

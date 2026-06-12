@@ -2,55 +2,19 @@ import "./navbar.css";
 import header_img from "../Home/assets/imgs/header.gif";
 import header_dark from "../Home/assets/imgs/header-dark.gif";
 import { Link } from "react-scroll";
+
+import Logo from "../../assets/logobg.jpeg";
 function Navbar() {
-  const HandleColor = () => {
-    document.querySelectorAll(".bg-darkblue-500 ").forEach((e) => {
-      e.classList.remove("bg-darkblue-500");
-      e.classList.add("bg-zinc-900");
-    });
-    document.querySelectorAll(".bg-yellow-2000").forEach((e) => {
-      e.classList.remove("bg-yellow-2000");
-      e.classList.add("bg-green-700");
-    }); 
-    document.querySelectorAll(".text-yellow-500").forEach((e) => {
-      e.classList.remove("text-yellow-500");
-      e.classList.add("text-green-700");
-    });
-    document.querySelectorAll(".border-blue-950").forEach((e) => {
-      e.classList.remove("border-blue-950");
-      e.classList.add("border-zinc-900");
-    });
-    document.querySelectorAll(".text-zinc-500").forEach((e) => {
-      e.classList.remove("text-zinc-500");
-      e.classList.add("text-zinc-300");
-    });
-    document.querySelector(".parent-header").firstChild.src = header_dark;
-  };
-  const HandleColorSun = () => {
-    document.querySelectorAll(".bg-zinc-900").forEach((e) => {
-      e.classList.remove("bg-zinc-900");
-      e.classList.add("bg-darkblue-500");
-    });
-    document.querySelectorAll(".bg-green-700").forEach((e) => {
-      e.classList.remove("bg-green-700");
-      e.classList.add("bg-yellow-2000");
-    });
-    document.querySelectorAll(".text-green-700").forEach((e) => {
-      e.classList.remove("text-green-700");
-      e.classList.add("text-yellow-500");
-    });
-    document.querySelectorAll(".border-zinc-900").forEach((e) => {
-      e.classList.remove("border-zinc-900");
-      e.classList.add("border-blue-950");
-    });
-    document.querySelectorAll(".text-zinc-300").forEach((e) => {
-      e.classList.remove("text-zinc-300");
-      e.classList.add("text-zinc-500");
-    });
-    document.querySelector(".parent-header").firstChild.src = header_img;
-  };
+const HandleColor = () => {
+  document.documentElement.setAttribute("data-theme", "dark");
+
+};
+
+const HandleColorSun = () => {
+  document.documentElement.removeAttribute("data-theme");  
+};
   return (
-    <div className="navbar   bg-darkblue-500  text-white fixed">
+    <div className="navbar bg-[var(--bg-color)] text-[var(--primary-color)] fixed">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -71,7 +35,7 @@ function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-yellow-2000 rounded w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] text-[var(--bg-color)] p-2 shadow bg-[var(--primary-color)] rounded w-52"
           >
             <li className="font-semibold">
               <Link
@@ -127,6 +91,7 @@ function Navbar() {
           duration={300}
           className="btn btn-ghost text-xl"
         >
+         <img className="w-[30px]" src={Logo} alt="Sara Mohamed" />
           Sara Mohamed
         </Link>
       </div>
@@ -187,7 +152,7 @@ function Navbar() {
           />
 
           <div
-            className="swap-on fill-current w-7 h-7 overflow-hidden btn-circle"
+            className="swap-on fill-current w-7 h-7 overflow-hidden btn-circle border-2 border-[var(--primary-color)]"
             onClick={() => {
               HandleColor();
             }}
@@ -195,25 +160,25 @@ function Navbar() {
             <span
               className=" block w-full h-2/4 "
               style={{
-                backgroundColor: "#ffb703",
+                backgroundColor: "#3d1217",
               }}
             ></span>
             <span
               className=" block w-full h-2/4"
               style={{
-                backgroundColor: "#023047",
+                backgroundColor: "#fdf0f1",
               }}
             ></span>
           </div>
 
           <div
-            className="swap-off fill-current w-7 h-7 overflow-hidden btn-circle"
+            className="swap-off fill-current w-7 h-7 overflow-hidden btn-circle border-2 border-[var(--primary-color)]"
             onClick={() => {
               HandleColorSun();
             }}
           >
-            <span className=" bg-gray-950 block w-full h-2/4"></span>
-            <span className="bg-green-600 block w-full h-2/4"></span>
+            <span className=" bg-[var(--primary-color)] block w-full h-2/4"></span>
+            <span className="bg-[var(--bg-color)] block w-full h-2/4"></span>
           </div>
         </label>
       </div>

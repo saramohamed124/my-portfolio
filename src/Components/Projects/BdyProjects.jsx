@@ -7,7 +7,7 @@ const BdyProjects = () => {
 
   return (
     <div className=" p-5 px-6 ">
-      <h1 className="mt-6 text-black text-4xl">Projects</h1>
+      <h1 className="mt-6 text-[var(--bg-color)] text-4xl">Projects</h1>
       <div className="flex flex-wrap justify-around gap-3 mt-6">
         {data.map((e) => (
           <div
@@ -20,7 +20,7 @@ const BdyProjects = () => {
               className=" w-[19rem] h-56 object-cover max-w-full"
             />
             <div className="text-center pt-5">
-              <h2 className="text-black font-semibold" key={e.id}>
+              <h2 className="text-[var(--bg-color)] font-semibold" key={e.id}>
                 {e.name}
               </h2>
               <p className="text-zinc-500 text-[14px] pt-2 h-[50px]" key={e.id}>
@@ -31,7 +31,7 @@ const BdyProjects = () => {
               href={e.href}
               target="_blank"
               rel="noreferrer"
-              className="w-fit hover:scale-[103%] hover rounded-badge text-white font-semibold py-2 px-4 bg-darkblue-500 mt-5"
+              className="w-fit hover:scale-[103%] hover rounded-badge text-[var(--primary-color)] font-semibold py-2 px-4 bg-[var(--bg-color)] mt-5"
             >
               live Preview
             </a>

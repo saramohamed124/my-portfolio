@@ -1,8 +1,5 @@
-import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
 // import Email from ""
 function FormContact() {
-  const form = useRef();
 
   // const sendEmail = (e) => {
     // e.preventDefault();

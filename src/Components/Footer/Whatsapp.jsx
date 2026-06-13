@@ -6,7 +6,7 @@ function Whatsapp(){
         // padding: 5px;
         // margin: 20px;
         <div className="whats fixed bottom-0 right-0 w-fit h-fit p-[6px] bg-[#50ca5d] rounded-[50%] m-6">
-          <a href="https://wa.me/201021135168" target="_blank">
+          <a href="https://wa.me/201021135168" target="_blank" rel="noreferrer">
           <img src={whatsapp_icon} alt="whatsapp"/>
           </a>
         </div>

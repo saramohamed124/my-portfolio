@@ -1,6 +1,4 @@
 import "./navbar.css";
-import header_img from "../Home/assets/imgs/header.gif";
-import header_dark from "../Home/assets/imgs/header-dark.gif";
 import { Link } from "react-scroll";
 
 import Logo from "../../assets/logobg.jpeg";

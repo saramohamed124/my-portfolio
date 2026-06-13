@@ -1,6 +1,6 @@
 {
-  "homepage": "https://saramohamed124.github.io/my-portfolio",
-  "name": "my-portfolio",
+"homepage": ".",
+"name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

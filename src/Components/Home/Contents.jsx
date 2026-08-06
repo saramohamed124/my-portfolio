@@ -1,20 +1,23 @@
-import header_img from "./assets/imgs/header.png";
+import ReactTypingEffect from 'react-typing-effect';
+
 function Contents() {
   return (
-    <div className="parent-header  my-[20px] mx-auto text-[var(--primary-color)] flex lg:flex-row-reverse flex-col-reverse lg:justify-around  items-center gap-6 p-5 pt-3 pb-0 mb-0">
-      <img
-        className="max-w-full lg:w-1/2 w-3/4"
-        src={header_img}
-        alt="header"
-      />
-      <div className="content lg:text-start text-center lg:block flex justify-center items-center flex-col">
-        <h1 className="lg:text-4xl text-3xl pb-6 ">
-          I'm{" "}
-          <span className=" text-[var(--primary-color)] bg-[var(--secondary-color)] px-3 lg:text-5xl text-xl">
-            Sara Mohamed
+    <div className="parent-header jetbrains-mono my-custom-20 mx-auto flex flex-col items-start gap-6  pt-3 pb-0 mb-0">
+      <p className='badge w-fit py-1 px-4 text-sm bg-[var(--color-ivory)] border border-[var(--color-blush-soft)] text-[var(--color-burgundy-deep)] font-medium'>Hello There!</p>
+      <div className="content  lg:text-start text-center lg:block flex justify-center items-center flex-col">
+        <h1 className="lg:text-4xl text-3xl pb-6 text-[var(--color-charcoal-dark)] font-bold ">
+          I am{" "}
+          <span className=" text-[var(--color-ruby)] px-3 lg:text-5xl text-xl">
+            <ReactTypingEffect
+              text={["Sara Mohammed", "Front End Developer", "React Developer", "Content Creator", "Web Instructor", "ICDL Instructor"]}
+              speed={100}
+              eraseSpeed={50}
+              eraseDelay={2000}
+              typingDelay={500}
+              />
           </span>
         </h1>
-        <p className=" w-4/5 lg:text-xl text-sm" >
+        <p className=" w-4/5 lg:text-xl text-[var(--color-brown-earth)]" >
           I'm a Front-end web Developer, I love to create beautiful and
           functional websites. my goal is to learn new thing every day.
         </p>

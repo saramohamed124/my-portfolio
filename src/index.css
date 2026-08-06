@@ -1,22 +1,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
   --bg-color: #fdf0f1;
   --primary-color: #3d1217;
   --secondary-color: #a92c3a;
+  /* Theme Colors */
+  --color-primary: #3d0c14;
+  --color-secondary: #b4304a;
+
+  /* Red & Burgundy Family */
+  --color-ruby: #b32736;
+  --color-burgundy-deep: #2e0208;
+  --color-burgundy-dark: #4a151b;
+  --color-crimson: #ae2c46;
+  --color-cherry: #f87171;
+  --color-rose-deep: #b4304a;
+
+  /* Pink & Blush Family */
+  --color-blush-light: #efdee1;
+  --color-blush-soft: #d8c1c1;
+  --color-blush-muted: #d7c1c2;
+  --color-blush-pale: #eedee1;
+  --color-pink-pastel: #ffdad9;
+  --color-pink-soft: #ffdadb;
+  --color-pink-light: #ffdadc;
+
+  /* Green Family */
+  --color-emerald: #4ade80;
+
+  /* Yellow & Gold Family */
+  --color-amber: #facc15;
+
+  /* Neutral & Dark Family */
+  --color-charcoal-dark: #1b1b1c;
+  --color-charcoal-deep: #1c1b1b;
+  --color-espresso: #524344;
+  --color-brown-earth: #534343;
+  --color-obsidian: #130002;
+  --color-taupe: #d2c3c6;
+
+  /* Light & White Family */
+  --color-ivory: #fcf9f8;
+  --color-snow: #ffffff;
+  --color-pearl: #e5e2e1;
+
+  /* Colors with Opacity (Translucent) */
+  --color-blush-soft-30: rgba(216, 193, 193, 0.3);
+  --color-snow-0_2: rgba(255, 255, 255, 0.002);
+  --color-obsidian-20: rgba(19, 0, 2, 0.2);
+  --color-crimson-20: rgba(174, 44, 70, 0.2);
+  --color-pearl-50: rgba(229, 226, 225, 0.5);
+  --color-snow-60: rgba(255, 255, 255, 0.6);
+  --color-snow-40: rgba(255, 255, 255, 0.4);
+}
+
+@theme {
+  /* --text */
+  /* Spacing Fluid Sizes */
+  --spacing-custom-20: clamp(1rem, 2vw, 1.25rem);
 }
 
 [data-theme="dark"] {
   --bg-color: #3d1217;
   --primary-color: #fdf0f1;
-  --secondary-color: #a92c3a; 
+  --secondary-color: #a92c3a;
 }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,8 +84,8 @@ body {
   background-color: #023047;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 img {
   max-width: 100%;
@@ -39,4 +96,11 @@ img {
 input.input,
 textarea.textarea {
   background: white;
+}
+
+/* Fonts */
+.jetbrains-mono {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

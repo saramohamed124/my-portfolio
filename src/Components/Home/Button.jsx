@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
+
 function Button() {
-  const file = "/my-portfolio/Sara-Mohamed-Abdullah-CV.pdf";
-  // console.log(file)
+  const file = "/Sara-Mohamed-Abdullah-CV.pdf";
   const HandleDownloading = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -8,33 +9,27 @@ function Button() {
     aTag.setAttribute("download", fileName);
     document.body.appendChild(aTag);
     aTag.click();
-    // console.log(aTag.click() === true);
     aTag.remove();
   };
+
   return (
-    <button
-      className="flex m-0 mx-5 lg:justify-between gap-2 text-lg text-[var(--primary-color)] font-semibold lg:text-start  bg-[var(--secondary-color)] rounded-badge px-8 py-4 transition-all duration-100 ease-in hover:scale-[105%]"
-      onClick={() => {
-        HandleDownloading(file);
-      }}
-    >
-      Download CV{""}
-      <svg
-        class="w-6 h-6 text-[var(--primary-color)] dark:text-[var(--primary-color)]"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4"
-        />
-      </svg>
-    </button>
+    <div className="flex py-4 gap-4">
+      <Link
+        className="flex m-0 lg:justify-between cursor-pointer gap-2 text-lg text-white font-semibold lg:text-start  bg-[var(--color-burgundy-dark)] rounded-xl px-8 py-3 transition-all duration-100 ease-in hover:scale-[105%]"
+        to={"https://github.com/saramohamed124" }
+        target="_blank">
+        View my work
+      </Link>
+
+      <button
+        className="flex m-0 lg:justify-between gap-2 text-lg text-[var(--color-burgundy-dark)] font-semibold lg:text-start border  border-[var(--color-burgundy-dark)] rounded-xl px-8 py-3 transition-all duration-100 ease-in hover:scale-[105%]"
+        onClick={() => {
+          HandleDownloading(file);
+        }}>
+      Download CV
+      </button>
+
+    </div>
   );
 }
 export default Button;

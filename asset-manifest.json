@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.dcebde3a.css",
-    "main.js": "./static/js/main.e7ba99c9.js",
+    "main.css": "./static/css/main.e93bbee0.css",
+    "main.js": "./static/js/main.5827fcc8.js",
     "static/js/453.38208c36.chunk.js": "./static/js/453.38208c36.chunk.js",
     "static/media/furniro_app.png": "./static/media/furniro_app.0cc51bfdf053a0f5cef3.png",
     "static/media/eleaning.png": "./static/media/eleaning.ad4241a4bc2010ff66d1.png",
@@ -27,14 +27,14 @@
     "static/media/js_logo.png": "./static/media/js_logo.3dfb665e058d08c99f28.png",
     "static/media/multi_form.webp": "./static/media/multi_form.1d9019c8493385c875d5.webp",
     "static/media/whatsapp_icon.svg": "./static/media/whatsapp_icon.9006ddba1fc048df9a134c29f4ed6d43.svg",
-    "static/media/redux.svg": "./static/media/redux.71eb13e2fdd1de624e9a856125906e3b.svg",
     "index.html": "./index.html",
-    "main.dcebde3a.css.map": "./static/css/main.dcebde3a.css.map",
-    "main.e7ba99c9.js.map": "./static/js/main.e7ba99c9.js.map",
+    "static/media/redux.svg": "./static/media/redux.71eb13e2fdd1de624e9a856125906e3b.svg",
+    "main.e93bbee0.css.map": "./static/css/main.e93bbee0.css.map",
+    "main.5827fcc8.js.map": "./static/js/main.5827fcc8.js.map",
     "453.38208c36.chunk.js.map": "./static/js/453.38208c36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcebde3a.css",
-    "static/js/main.e7ba99c9.js"
+    "static/css/main.e93bbee0.css",
+    "static/js/main.5827fcc8.js"
   ]
 }
